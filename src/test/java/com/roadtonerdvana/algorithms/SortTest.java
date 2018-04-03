@@ -12,7 +12,7 @@ public class SortTest {
 	
 	@Test
 	public void sortTest(){
-		final Sort sort[] = new Sort[]{new InsertionSort(), new MergeSort(), new QuickSort(), new SelectionSort(), new HeapSort(), new HeapSortInPlace(), new HeapSortWithBinaryMinHeap()};
+		final Sort sort[] = new Sort[]{new InsertionSort(), new MergeSort(), new QuickSort(), new SelectionSort(), new HeapSort(), new HeapSortInPlace(), new HeapSortWithBinaryMinHeap(), new HeapSortPriorityQueue()};
 		for(Sort s : sort){
 			sortTest(s);
 		}
